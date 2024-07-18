@@ -15,6 +15,11 @@ const ProductListContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const ProductCard = styled.div`
@@ -29,6 +34,11 @@ const ProductCard = styled.div`
   text-align: center;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    width: 80%;
+    margin: 10px 0;
+  }
 `;
 
 const ProductImage = styled.img`

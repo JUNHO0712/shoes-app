@@ -5,6 +5,9 @@ import styled from 'styled-components';
 
 const HeaderTitle = styled.h1`
   font-size: 1.5em;
+  @media (max-width: 768px) {
+    font-size: 1.2em;
+  }
 `;
 
 const HeaderContainer = styled.header`
